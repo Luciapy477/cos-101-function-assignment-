@@ -1,0 +1,14 @@
+empty_list=[]
+shopping_list=["Rice","Garri","Bread"]
+empty_list.append("Eggs")
+shopping_list.append("Butter")
+
+
+for item in shopping_list:
+    print(item)
+    if item=="Milk":
+        print("found milk")
+        #break
+        
+
+    
